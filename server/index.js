@@ -10,7 +10,7 @@ let port = process.env.PORT || 3001;
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("We are good to go chief!");
+  res.send("We are good to go chief! oh yeah mr crabs");
 });
 
 const server = http.createServer(app);
