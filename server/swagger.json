@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "title": "Mind Residentials Documentation"
   },
-  "host": "gestion-fraccionamiento.herokuapp.com",
+  "host": "smart-traffic-api.herokuapp.com",
   "basePath": "/",
   "tags": [
     {

@@ -3,15 +3,15 @@ import http from "http";
 import cors from "cors";
 import { Server } from "socket.io";
 //import fetch from "node-fetch";
-import * as swaggerDoc from "./swagger.json";
-import swaggerUi from "swagger-ui-express";
+//import * as swaggerDoc from "./swagger.json";
+//import swaggerUi from "swagger-ui-express";
 
 const app = express();
 let port = process.env.PORT || 3001;
 
 app.use(cors());
 
-app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
+//app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
 app.get("/", (req, res) => {
   res.send("We are good to go chief! oh yeah mr crabs");
